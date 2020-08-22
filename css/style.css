@@ -1,0 +1,101 @@
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+a{
+	text-decoration: none;
+}
+/*this is our image*/
+.image{
+	background-image: url(../img/image.jpg);
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 130vh;
+
+}
+/*this is menu design*/
+.menu-bar{
+	font-size: 30px;
+	text-align: center;
+	background-color:#D385C9 ;
+	transition: 1s; 
+	height: 80px;
+	line-height: 80px;
+
+}
+.menu-bar ul li{
+	display: inline-block;
+}
+.menu-bar ul li a{
+	font-size: 20px;
+	color: #803D63  ;
+	font-weight: 600px;
+	margin: 0 15px;
+	border-spacing: 3.5px;
+	transition: 1s;
+
+
+}
+.menu-bar ul li a:hover{
+	color: white;
+	transition: 1s;
+	font-size: 25px;
+
+}
+/*this is form design*/
+.form-body{
+	background-color: #A24675;
+	height: 500px;
+	width: 300px;
+	background-position: left;
+}
+.form-body input{
+	font-size:15px;
+	width:200px;
+	height: 30px;
+	text-align: center;
+}
+/*this is icon style*/
+.social-icons{
+	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 550px;
+}
+.social-icons ul li {
+	list-style: none;
+	display: inline-block;
+
+}
+.social-icons ul li a i{
+	font-size: 20px;
+	height: 60px;
+	width: 60px;
+	background-color:#803D63;
+	color: white;
+    margin: 0 7px;
+    border-radius: 100px;
+	text-align: center;
+	line-height: 60px;
+	transition: 1s;
+
+}
+.social-icons ul li a i:hover{
+    text-align: center;
+	background-color: #D385C9 ;
+	transition: 1s; 
+	;
+
+}
+/*this is quote style*/
+.quote{
+	font-size: 25px;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: #803D63;
+	padding: 10px;
+	text-align: center;
+}
